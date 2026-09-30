@@ -1,0 +1,1 @@
+var e=[`#2d70b3`,`#c74440`,`#388c46`,`#6042a6`,`#fa7e19`,`#000000`],t=.25,n=.08,r=.45,i=e[0],a=`#2563eb`;function o(t){let n=e.length;return e[(t%n+n)%n]}function s(e){let t=Number.parseInt(e.replace(`#`,``),16);return[t>>16&255,t>>8&255,t&255]}export{n as a,t as i,a as n,o,r,s,i as t};
